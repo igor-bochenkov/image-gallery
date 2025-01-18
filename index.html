@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Image-gallery</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__body">
+					<div class="header__logo logo">
+						<img class="logo__img" src="img/icons/icon-gallery.png" alt="gallery">
+						<p class="logo__text">Image Gallery</p>
+					</div>
+					<form action="#!" class="header__search search-form">
+						<input type="search" class="search-form__input" placeholder="Search photos" autofocus
+							autocomplete="nope">
+						<button type="submit" class="search-form__btn">
+							<img src="img/icons/search.svg" alt="search">
+						</button>
+					</form>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="page__container container">
+				<div class="page__gallery gallery">
+					<div class="gallery__text-err">Nothing found for this request =(</div>
+					<div class="gallery__images"></div>
+					<button class="gallery__btn-load">Load more</button>
+				</div>
+
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div class="footer__items">
+					<a href="https://github.com/igor-bochenkov" class="footer__item footer__item--github" target="_blank">
+						<img src="img/footer/github-svg.svg" alt="github">
+					</a>
+					<a href="https://rs.school/courses/javascript-preschool-ru" class="footer__item footer__item--rss"
+						target="_blank">
+						<img src="img/footer/rs_school_js.svg" alt="rsschool">
+					</a>
+					<div class="footer__item footer__item--data">2024</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="js/script.js"></script>
+	<script src="js/index.js"></script>
+</body>
+
+</html>
