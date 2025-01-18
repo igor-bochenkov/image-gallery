@@ -5,6 +5,6 @@
 - приложение написано на чистом JavaScript
 - имеет собственное оригинальное оформление
 
-![alt text](image-gallery_cr_400.png)
+![image gallery preview](./img/image-gallery_preview.png)
 
 https://igor-bochenkov.github.io/image-gallery/
